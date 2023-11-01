@@ -30,26 +30,30 @@ header{
     font-weight: 400;
     line-height: 20px
 }
-.section_2{
+.section_2 .d_flex{
     max-width: 1200px;
     margin: auto;
-    justify-content: space-between;
-    position: relative;
 }
 .section_2 h2{
-    width: 294px;
-    height: 310px;
     color: #1E1928;
     font-family: 'Roboto', sans-serif;
     font-size: 48px;
     font-style: normal;
     font-weight: 700;
     line-height: 58px;
+    padding: 80px 120px;
+    margin-top: -100px;
 }
 .icon{
-    right: 40px;
-    bottom: 80px;
     list-style: none;
+}
+.icon li{
+    display: flex;
+}
+.list{
+    max-width: 515px;
+    margin-bottom: 38px;
+    margin-right: 154px;
 }
 .icon li h3{
     color: #1E1928;
@@ -57,16 +61,17 @@ header{
     font-size: 17px;
     font-style: normal;
     font-weight: 700;
-    line-height: 26px; /* 152.941% */
+    line-height: 26px;
     letter-spacing: 0.252px;
+    margin-bottom: 10px;
 }
-.icon li p{
+.icon li{
     color: rgba(30, 25, 40, 0.80);
     font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 24px; /* 150% */
+    line-height: 24px;
     letter-spacing: 0.176px;
 }
 .icon li:before{
@@ -77,7 +82,7 @@ header{
     width: 40px;
     height: 40px;
     margin-right: 24px;
-    margin-bottom: -6px;
+    margin-top: -10px;
     justify-content: center;
     align-items: center;
     color: #EDE6DD;
@@ -86,7 +91,7 @@ header{
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
-    line-height: 26px; /* 144.444% */
+    line-height: 26px;
     letter-spacing: 0.252px;
 }
 .icon li:nth-child(2):before{
@@ -97,7 +102,6 @@ header{
     width: 40px;
     height: 40px;
     margin-right: 24px;
-    margin-bottom: -6px;
     justify-content: center;
     align-items: center;
     color: #EDE6DD;
@@ -106,7 +110,7 @@ header{
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
-    line-height: 26px; /* 144.444% */
+    line-height: 26px;
     letter-spacing: 0.252px;
 }
 .icon li:last-child:before{
@@ -117,7 +121,6 @@ header{
     width: 40px;
     height: 40px;
     margin-right: 24px;
-    margin-bottom: -6px;
     justify-content: center;
     align-items: center;
     color: #EDE6DD;
@@ -126,6 +129,6 @@ header{
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
-    line-height: 26px; /* 144.444% */
+    line-height: 26px;
     letter-spacing: 0.252px;
 }
