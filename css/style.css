@@ -35,6 +35,9 @@ header{
     font-weight: 400;
     line-height: 20px
 }
+.section_2 .container{
+    max-width: 1200px;
+}
 .section_2 .d_flex{
     max-width: 1200px;
     margin: auto;
