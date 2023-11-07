@@ -136,7 +136,7 @@ header{
     letter-spacing: 0.252px;
 }
 .section_3 .container{
-    max-width: 1200px;
+    background: #F4EFE9;
 }
 .section_3 .type_1 h3{
     color: #1E1928;
@@ -157,6 +157,7 @@ header{
     font-weight: 400;
     line-height: 30px;
     letter-spacing: 0.252px;
+    max-width: 600px;
 }
 .frame_phone{
     margin-top: 80px;
@@ -178,5 +179,23 @@ header{
     font-style: normal;
     font-weight: 400;
     line-height: 30px;
+    letter-spacing: 0.252px;
+}
+.section_3 .type_3 h3{
+    color: #1E1928;
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 42px;
+    margin-bottom: 24px;
+}
+.section_3 .type_3 p{
+    color: rgba(30, 25, 40, 0.80);
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 187.5% */
     letter-spacing: 0.252px;
 }
