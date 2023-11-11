@@ -1,0 +1,52 @@
+@media screen and (max-width: 480px){
+    header nav li{
+        margin-left: 10px;
+    }
+    header nav li a{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 333px){
+    header nav{
+        display: none;
+    }
+}
+@media screen and (max-width: 771px){
+    .main_banner input{
+        font-size: 10px;
+    }
+    .main_banner form{
+        width: 290px;
+    }
+    .main_banner button{
+        font-size: 8px;
+        padding: 0px 10px;
+    }
+}
+@media screen and (max-width: 767px){
+    .inblock_1{
+        width: 1200px;
+    }
+    .type h2{
+        padding-bottom: 24px;
+        font-size: 20px;
+    }
+    .type p{
+        width: 300px;
+        font-size: 12px;
+    }
+    .type a{
+        font-size: 12px;
+    }
+    .freebanner{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 767px){
+    .third_banner img{
+        display: none;
+    }
+    .third_banner h{
+        margin: auto;
+    }
+}

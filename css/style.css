@@ -23,20 +23,35 @@ header{
     align-items: center;
     justify-content: space-around;
 }
-#navigation{
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav ul{
     display: flex;
     list-style: none
 }
-.item_link{
-    text-decoration: none; color: #1E1928;
+header nav li{
+    margin-left: 40px;
+}
+header nav li a{
+    text-decoration: none;
+    color: #1E1928;
     font-family: 'Inter', sans-serif;
-    font-size: 13px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: 20px
 }
+header nav li:nth-child(2){
+    font-size: 13px;
+}
+header nav li:last-of-type{
+    font-size: 13px;
+}
 .main_banner{
-    padding-bottom: 196px
+    padding-bottom: 196px;
 }
 .main_banner h1{
     color: #1E1928;
@@ -46,9 +61,11 @@ header{
     font-weight: 400;
     line-height: 58px;
     margin-bottom: 24px;
+    max-width: 400px;
 }
 .main_banner p:first-of-type{
-    margin-bottom: 4px; color: rgba(30, 25, 40, 0.80);
+    margin-bottom: 4px;
+    color: rgba(30, 25, 40, 0.80);
     font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-style: normal;
@@ -98,7 +115,8 @@ header{
     line-height: 20px;
 }
 .main_banner button{
-    padding: 10px 32px; border-radius: 9999px;
+    padding: 10px 32px;
+    border-radius: 9999px;
     background: #1E1928;
     color: #F4EFE9;
     font-family: 'Inter', sans-serif;
@@ -175,6 +193,7 @@ header{
     font-style: normal;
     font-weight: 400;
     line-height: 20px;
+    text-decoration: none;
 }
 .freebanner .d_flex{
     max-width: 1200px;
@@ -370,6 +389,7 @@ header{
     font-weight: 400;
     line-height: 20px;
     margin-top: 80px;
+    text-decoration: none;
 }
 .fifth_banner{
     padding-top: 290px;
