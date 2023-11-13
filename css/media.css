@@ -56,35 +56,35 @@
     .third_banner img{
         display: none;
     }
-}
-.third_banner .type_1 h3{
+    }
+    .third_banner .type_1 h3{
     text-align: center;
-}
-.third_banner .type_1 p{
+    }
+    .third_banner .type_1 p{
     text-align: center;
-}
-.third_banner .type_2 h3{
+    }
+    .third_banner .type_2 h3{
     text-align: center;
-}
-.third_banner .type_2 p{
+    }
+    .third_banner .type_2 p{
     text-align: center;
-}
-.third_banner .type_3 h3{
-    text-align: center;
-}
-.third_banner .type_3 p{
-    text-align: center;
-}
-.fourth_banner div{
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-.fourth_banner img{
-    padding-bottom: 8px;
-}
-.inblock_2{
-    position: static;
-}
-.fifth_banner{
-    padding: 0;
-}
+    }
+    .third_banner .type_3 h3{
+        text-align: center;
+    }
+    .third_banner .type_3 p{
+        text-align: center;
+    }
+    .fourth_banner div{
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .fourth_banner img{
+        padding-bottom: 8px;
+    }
+    .inblock_2{
+        position: static;
+    }
+    .fifth_banner{
+        padding: 0;
+    }
