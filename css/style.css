@@ -170,7 +170,7 @@ header nav li:last-of-type{
 .type p{
     padding-bottom: 28px;
     color: rgba(30, 25, 40, 0.80);
-    width: 653px;
+    max-width: 653px;
     text-align: center;
     font-family: 'Inter', sans-serif;
     font-size: 18px;
@@ -276,7 +276,7 @@ header nav li:last-of-type{
     line-height: 26px;
     letter-spacing: 0.252px;
 }
-.icon li:last-child:before{
+.icon li:last-of-type:before{
     display: inline-flex;
     content: "3";
     border-radius: 50%;
@@ -478,6 +478,14 @@ header nav li:last-of-type{
     padding-top: 144px;
     padding-bottom: 264px;
     background-color: #EDE6DD;
+}
+.seen_on{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.seen_on a{
+    margin: 6px;
 }
 .banner_six h3{
     color: #1E1928;

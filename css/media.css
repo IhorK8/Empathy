@@ -11,19 +11,19 @@
         display: none;
     }
 }
-@media screen and (max-width: 771px){
-    .main_banner input{
-        font-size: 10px;
-    }
+@media screen and (max-width: 767px){
     .main_banner form{
-        width: 290px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .main_banner input{
+        width: 100%;
+        margin-bottom: 10px;
+        text-align: center;
     }
     .main_banner button{
-        font-size: 8px;
-        padding: 0px 10px;
+        width: 100%;
     }
-}
-@media screen and (max-width: 767px){
     .second_banner{
         padding: 0;
     }
@@ -32,11 +32,59 @@
     }
     .freebanner{
         flex-direction: column;
-        margin-top: 20px;
+        margin-top: 40px;
+        text-align: center;
     }
-}
-@media screen and (max-width: 767px){
+    .icon li{
+        margin-left: 120px;
+    }
+    .icon li:before{
+        width: 100px;
+        height: 30px;
+        margin-right: 1px;
+    }
+    .icon li:nth-child(2):before{
+        width: 150px;
+        height: 30px;
+        margin-right: 1px;
+    }
+    .icon li:last-of-type:before{
+        width: 150px;
+        height: 30px;
+        margin-right: 1px;
+    }
     .third_banner img{
         display: none;
     }
+}
+.third_banner .type_1 h3{
+    text-align: center;
+}
+.third_banner .type_1 p{
+    text-align: center;
+}
+.third_banner .type_2 h3{
+    text-align: center;
+}
+.third_banner .type_2 p{
+    text-align: center;
+}
+.third_banner .type_3 h3{
+    text-align: center;
+}
+.third_banner .type_3 p{
+    text-align: center;
+}
+.fourth_banner div{
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.fourth_banner img{
+    padding-bottom: 8px;
+}
+.inblock_2{
+    position: static;
+}
+.fifth_banner{
+    padding: 0;
 }
