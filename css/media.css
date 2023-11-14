@@ -1,90 +1,124 @@
-@media screen and (max-width: 480px){
-    header nav li{
-        margin-left: 10px;
-    }
-    header nav li a{
-        font-size: 12px;
-    }
-}
-@media screen and (max-width: 333px){
-    header nav{
+@media screen and (max-width: 767px) {
+    header nav {
         display: none;
     }
-}
-@media screen and (max-width: 767px){
-    .main_banner form{
+
+    .main_banner .main_image {
+        display: none;
+    }
+
+    .main_banner{
+        padding: 30px 30px;
+        text-align: center;
+    }
+
+    .main_banner form {
         flex-direction: column;
         align-items: center;
     }
-    .main_banner input{
+
+    .main_banner input {
         width: 100%;
         margin-bottom: 10px;
         text-align: center;
     }
-    .main_banner button{
+
+    .main_banner button {
         width: 100%;
     }
-    .second_banner{
+
+    .second_banner {
         padding: 0;
     }
-    .inblock_1{
+
+    .inblock_1 {
         position: static;
+        padding: 20px 30px;
     }
-    .freebanner{
+
+    .freebanner {
         flex-direction: column;
         margin-top: 40px;
         text-align: center;
     }
-    .icon li{
-        margin-left: 120px;
+
+    .icon li {
+        margin-left: 60px;
+        width: 100%;
+        justify-content: space-around;
     }
-    .icon li:before{
-        width: 100px;
+
+    .icon li:before {
+        width: 70px;
         height: 30px;
         margin-right: 1px;
     }
-    .icon li:nth-child(2):before{
-        width: 150px;
+
+    .icon li:nth-child(2):before {
+        width: 130px;
         height: 30px;
         margin-right: 1px;
     }
-    .icon li:last-of-type:before{
-        width: 150px;
+
+    .icon li:last-of-type:before {
+        width: 120px;
         height: 30px;
         margin-right: 1px;
     }
-    .third_banner img{
+
+    .third_banner{
+        padding: 20px 30px;
+    }
+    .third_banner img {
         display: none;
     }
-    }
-    .third_banner .type_1 h3{
-    text-align: center;
-    }
-    .third_banner .type_1 p{
-    text-align: center;
-    }
-    .third_banner .type_2 h3{
-    text-align: center;
-    }
-    .third_banner .type_2 p{
-    text-align: center;
-    }
-    .third_banner .type_3 h3{
+
+    .third_banner .type_1 h3 {
         text-align: center;
     }
-    .third_banner .type_3 p{
+
+    .third_banner .type_1 p {
+        text-align: center;
+        padding-bottom: 15px;
+    }
+
+    .third_banner .type_2 h3 {
         text-align: center;
     }
-    .fourth_banner div{
+
+    .third_banner .type_2 p {
+        text-align: center;
+    }
+
+    .third_banner .type_3 h3 {
+        text-align: center;
+    }
+
+    .third_banner .type_3 p {
+        text-align: center;
+    }
+    .fourth_banner{
+        padding: 30px 30px;
+    }
+    .fourth_banner div {
         flex-wrap: wrap;
         justify-content: space-around;
     }
-    .fourth_banner img{
+
+    .fourth_banner img {
         padding-bottom: 8px;
     }
-    .inblock_2{
+
+    .inblock_2 {
         position: static;
+        padding: 20px 30px;
+        margin-bottom: 50px;
     }
-    .fifth_banner{
+
+    .fifth_banner {
         padding: 0;
     }
+    .type_4 p:nth-child(3){
+        padding: 10px 30px;
+    }
+}
