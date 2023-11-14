@@ -2,6 +2,9 @@
     body{
         overflow-x: hidden;
     }
+    header{
+        padding: 10px;
+    }
     header nav {
         display: none;
     }
@@ -10,19 +13,18 @@
         text-align: center;
         flex-direction: column;
     }
-        .main_banner form {
-        flex-direction: column;
-        align-items: center;
+    .main_banner form {
+        width: 300px;
+        margin: auto;
     }
 
     .main_banner input{
-        width: 100%;
-        margin-bottom: 10px;
-        text-align: center;
+        width: 120px;
+        font-size: 8px;
     }
 
     .main_banner button {
-        width: 100%;
+        padding: 8px 15px;
     }
 
     .second_banner {
