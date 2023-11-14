@@ -1,23 +1,21 @@
 @media screen and (max-width: 767px) {
+    body{
+        overflow-x: hidden;
+    }
     header nav {
         display: none;
     }
-
-    .main_banner .main_image {
-        display: none;
-    }
-
-    .main_banner{
-        padding: 30px 30px;
+    .main_banner .container{
+        padding: 0 30px;
         text-align: center;
+        flex-direction: column;
     }
-
-    .main_banner form {
+        .main_banner form {
         flex-direction: column;
         align-items: center;
     }
 
-    .main_banner input {
+    .main_banner input{
         width: 100%;
         margin-bottom: 10px;
         text-align: center;
@@ -122,5 +120,8 @@
     }
     .type_4 p:nth-child(3){
         padding: 20px 30px;
+    }
+    .banner_six{
+        padding: 30px;
     }
 }

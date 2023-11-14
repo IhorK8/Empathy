@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color:#F4EFE9
+    background-color:#F4EFE9;
 }
 header{
     padding: 40px 0;
@@ -50,7 +50,7 @@ header nav li:nth-child(2){
 header nav li:last-of-type{
     font-size: 13px;
 }
-.main_banner{
+.main_banner .container{
     padding-bottom: 196px;
 }
 .main_banner h1{
