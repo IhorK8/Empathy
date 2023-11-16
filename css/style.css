@@ -185,7 +185,7 @@ header nav li:last-of-type{
     border: 1px solid #1E1928;
     padding: 10px 33px;
     margin: auto;
-    display: block;
+    display: inline-block;
     color: #1E1928;
     text-align: center;
     font-family: 'Inter', sans-serif;
