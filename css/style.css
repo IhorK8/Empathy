@@ -565,6 +565,7 @@ header nav li:last-of-type{
     content: "";
     position: absolute;
     top: -2px;
+    margin-top: 3px;
     height: 32px;
     width: 32px;
     color: #000;
@@ -577,6 +578,7 @@ header nav li:last-of-type{
     content: "";
     position: absolute;
     top: -2px;
+    margin-top: 3px;
     height: 32px;
     width: 32px;
     color: #000;
