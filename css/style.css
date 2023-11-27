@@ -531,6 +531,7 @@ header nav li:last-of-type{
     background-image: none;
     text-indent: 0;
     background-position: 0;
+    padding: 20px 45px 22px 15px;
 }
 .faq .ui-accordion .ui-accordion-header.ui-state-active{
     color: black;
@@ -563,9 +564,11 @@ header nav li:last-of-type{
 .faq .ui-accordion .ui-accordion-header .ui-icon:before{
     content: "";
     position: absolute;
+    top: -2px;
     height: 32px;
-    width: 24px;
+    width: 32px;
     color: #000;
+    background-repeat: no-repeat;
     transform: rotate(0);
     transition: transform .2s;
     background-image: url("../images/chevron-down.svg");
@@ -573,9 +576,11 @@ header nav li:last-of-type{
 .faq .ui-accordion .ui-accordion-header.ui-state-active .ui-icon:before{
     content: "";
     position: absolute;
+    top: -2px;
     height: 32px;
-    width: 24px;
+    width: 32px;
     color: #000;
+    background-repeat: no-repeat;
     transform: rotate(-180deg);
     transition: transform .2s;
     background-image: url("../images/chevron-down.svg");
