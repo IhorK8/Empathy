@@ -28,6 +28,10 @@ header .container{
     justify-content: space-between;
     align-items: center;
 }
+header .logo{
+    position: relative;
+    z-index: 100;
+}
 header nav ul{
     display: flex;
     list-style: none
