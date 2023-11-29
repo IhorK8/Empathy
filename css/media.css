@@ -141,8 +141,8 @@
         overflow: hidden;
         font-family: 'Montserrat', sans-serif;
         font-weight: 900;
-        line-height: 1.15;
-        letter-spacing: 3px;
+        line-height: 2;
+        letter-spacing: 8px;
         -webkit-transform: translate(100px, 0%);
         transform: translate(100px, 0%);
         -webkit-transition: opacity .2s ease, -webkit-transform .3s ease;
@@ -192,7 +192,7 @@
     }
 
     .nav__list-item a:hover {
-        color: rgba(255, 255, 255, 1);
+        color: #6B696B;
     }
 
     .nav__list-item.active-nav a {
