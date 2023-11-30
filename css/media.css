@@ -32,6 +32,12 @@
     .main_banner button {
         padding: 8px 15px;
     }
+    .main_banner h1{
+        max-width: none;
+    }
+    .main_banner p:nth-child(3){
+        max-width: none;
+    }
 
     .second_banner {
         padding: 0;
