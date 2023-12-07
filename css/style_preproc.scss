@@ -251,6 +251,7 @@ header {
         max-width: 400px;
         @include max-screen(767px) {
           max-width: none;
+        }
       }
       &:first-of-type {
         margin-bottom: 4px;
@@ -274,6 +275,7 @@ header {
         max-width: 549px;
         @include max-screen(767px) {
           max-width: none;
+        }
       }
       &:last-of-type {
         margin-bottom: 24px;
@@ -285,6 +287,7 @@ header {
         line-height: 30px;
         letter-spacing: 0.252px;
       }
+
       form {
         border-radius: 9999px;
         background: $main_color;
@@ -296,6 +299,7 @@ header {
           width: 300px;
           margin: auto;
         }
+
         input {
           width: 180px;
           border: none;
