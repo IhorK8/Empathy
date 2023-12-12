@@ -871,7 +871,7 @@ nav ul li a:last-of-type {
 .banner_seven .inblock_3 h3 {
   color: #1E1928;
   text-align: center;
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-size: 32px;
   font-style: normal;
   font-weight: 400;
@@ -881,7 +881,7 @@ nav ul li a:last-of-type {
 .banner_seven .inblock_3 p {
   color: rgba(30, 25, 40, 0.64);
   text-align: center;
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -892,7 +892,7 @@ nav ul li a:last-of-type {
 .banner_seven .type_5 h3 {
   color: #FFF;
   text-align: center;
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-size: 17px;
   font-style: normal;
   font-weight: 400;
@@ -903,7 +903,7 @@ nav ul li a:last-of-type {
 .banner_seven .type_5 p {
   color: #EDE6DD;
   text-align: center;
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
@@ -961,6 +961,143 @@ nav ul li a:last-of-type {
   .banner_seven .type_5 form button {
     padding: 8px 15px;
   }
+}
+
+.footer {
+  background-color: #FFF;
+  padding-top: 64px;
+}
+.footer .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.footer .footer_top_flex {
+  display: block;
+  justify-content: space-between;
+}
+.footer .footer_top_flex .footer_top_grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  align-items: flex-start;
+  padding-bottom: 112px;
+}
+.footer .footer_top_flex h3 {
+  color: #1E1928;
+  font-family: "Inter", sans-serif;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 0.252px;
+}
+.footer .footer_top_flex ul {
+  list-style-type: none;
+  margin-top: 16px;
+}
+.footer .footer_top_flex ul li {
+  color: rgba(30, 25, 40, 0.8);
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 16px;
+}
+.footer .footer_top_flex ul a {
+  color: rgba(30, 25, 40, 0.8);
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  text-decoration: none;
+}
+.footer .footer_top_flex ul a:hover {
+  color: #007bff;
+}
+.footer .footer_top_flex .social_media_links {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: -122px;
+}
+.footer .footer_top_flex .social_media_links .subscribe_btn {
+  border-radius: 9999px;
+  background: #1E1928;
+  color: #F4EFE9;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  padding: 10px 32px;
+  margin-right: 16px;
+}
+.footer .footer_top_flex .social_media_links .subscribe_btn:hover {
+  border-radius: 9999px;
+  background: #1e1928;
+}
+.footer .footer_top_flex .social_media_links .media_link {
+  display: flex;
+}
+.footer .footer_top_flex .social_media_links .media_link a img {
+  width: 40px;
+  height: 40px;
+  margin-right: 16px;
+}
+.footer .footer_top_flex .empathy_info_everyone {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+.footer .footer_top_flex .empathy_info_everyone .empathy_is_for_everyone {
+  flex: 1;
+  max-width: 60%;
+  margin-right: 20px;
+}
+.footer .footer_top_flex .empathy_info_everyone .empathy_is_for_everyone p {
+  color: rgba(30, 25, 40, 0.64);
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0.084px;
+}
+.footer .footer_top_flex .empathy_info_everyone .market_store {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.footer .footer_top_flex .empathy_info_everyone .market_store a {
+  margin-left: 10px;
+}
+.footer .footer_top_flex .empathy_info_everyone .market_store img {
+  width: 100px;
+  height: auto;
+}
+.footer .footer_top_flex .broadway_new_york {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: rgba(30, 25, 40, 0.64);
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  margin-top: 16px;
+}
+.footer .footer_top_flex .broadway_new_york span {
+  margin-right: auto;
+}
+.footer .footer_top_flex .broadway_new_york span:last-child {
+  margin-left: 0;
 }
 
 /*# sourceMappingURL=style_preproc.css.map */
