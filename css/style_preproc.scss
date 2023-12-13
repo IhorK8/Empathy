@@ -1027,7 +1027,7 @@ nav {
       @include max-screen(767px) {
         flex-wrap: wrap;
         padding: 0 30px;
-        justify-content: center;
+        justify-content: space-between;
       }
     }
 
@@ -1075,8 +1075,9 @@ nav {
       justify-content: flex-end;
       align-items: start;
       @include max-screen(767px) {
-        margin-left: 20px;
+        margin: auto;
         flex-direction: column;
+        padding-bottom: 10px;
       }
 
       .subscribe_btn {

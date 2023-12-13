@@ -997,7 +997,7 @@ nav ul li a:last-of-type {
   .footer .footer_top .footer_top_flex {
     flex-wrap: wrap;
     padding: 0 30px;
-    justify-content: center;
+    justify-content: space-between;
   }
 }
 .footer .footer_top h3 {
@@ -1041,8 +1041,9 @@ nav ul li a:last-of-type {
 }
 @media screen and (max-width: 767px) {
   .footer .footer_top .social_media_links {
-    margin-left: 20px;
+    margin: auto;
     flex-direction: column;
+    padding-bottom: 10px;
   }
 }
 .footer .footer_top .social_media_links .subscribe_btn {
