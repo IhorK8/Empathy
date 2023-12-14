@@ -1022,7 +1022,6 @@ nav {
     .footer_top_flex {
       display: flex;
       justify-content: space-between;
-      gap: 20px;
       padding-bottom: 112px;
       @include max-screen(767px) {
         flex-wrap: wrap;

@@ -990,7 +990,6 @@ nav ul li a:last-of-type {
 .footer .footer_top .footer_top_flex {
   display: flex;
   justify-content: space-between;
-  gap: 20px;
   padding-bottom: 112px;
 }
 @media screen and (max-width: 767px) {
